@@ -27,7 +27,6 @@ export default async function Episodes() {
     return (
         <PageWrapper>
             {episodesList}
-            {episodesList}
         </PageWrapper>
     )
 }
