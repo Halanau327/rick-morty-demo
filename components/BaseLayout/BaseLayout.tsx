@@ -1,9 +1,9 @@
 import {NextPage} from 'next';
 import {PropsWithChildren} from 'react';
-import {Header} from 'components/Header/Header';
-import s from './Layout.module.css'
+import {Header} from '../Header/Header';
+import s from './BaseLayout.module.css'
 
-export const Layout: NextPage<PropsWithChildren> = (props) => {
+export const BaseLayout: NextPage<PropsWithChildren> = (props) => {
     const {children} = props
 
     return (
