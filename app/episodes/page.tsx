@@ -3,7 +3,6 @@ import {PageWrapper} from '../../components/PageWrapper/PageWrapper';
 import {Card} from '../../components/Card/Card';
 import notFound from "../not-found";
 
-
 const getEpisodes = async (): Promise<ResponseType<EpisodeType>> => {
     const res = await fetch(`${process.env.NEXT_PUBLIC_RICK_API_URL}/episode`, {
         next: {revalidate: 60}

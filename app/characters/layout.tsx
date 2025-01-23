@@ -3,9 +3,10 @@ import {PropsWithChildren} from "react";
 import {BaseLayout} from "../../components/BaseLayout/BaseLayout";
 
 export const metadata: Metadata = {
-    title: 'Episodes',
+    title: 'Characters',
     description: 'New NextJs'
 }
+
 
 const Layout: NextPage<PropsWithChildren> = ({children}) => {
     return <BaseLayout>
